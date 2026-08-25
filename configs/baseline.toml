@@ -1,4 +1,25 @@
-# Calibrated values will replace these documented starting values in Session 2.
 initial_mid_ticks = 10000
 tick_value = 0.01
+seed_levels = 10
+seed_orders_per_level = 2
+seed_order_qty = 3
 
+# Continuous-time event hazards.
+limit_order_rate = 12.0
+market_order_rate = 10.0
+cancel_rate_per_order = 0.05
+value_shock_rate = 0.8
+informed_fraction = 0.2
+
+# Background order placement and size distributions.
+placement_geometric_p = 0.45
+size_geometric_p = 0.2
+max_order_qty = 15
+fundamental_shock_ticks = 4
+
+session_events = 5000
+half_spread_ticks = 1
+inventory_aversion = 0.1
+quote_size = 5
+inventory_limit = 100
+markout_horizons = [1.0, 5.0, 10.0, 30.0, 60.0]
