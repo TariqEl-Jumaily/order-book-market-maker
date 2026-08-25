@@ -1352,6 +1352,9 @@ Do not claim any of these features in a CV or interview.
 
 The order matters. Validation is more useful than adding advanced names without evidence.
 
+The separate [development roadmap](development-roadmap.md) turns these ideas into
+milestones with implementation tasks, acceptance checks, learning goals, and CV impact.
+
 ### Step 1: interactive learning notebook
 
 A Jupyter notebook would let you create orders one cell at a time, display the book, run a short session, and inspect fills without using the terminal for every step.
@@ -1458,6 +1461,10 @@ Do not say:
 Do not memorize this word for word. Rewrite it in language that sounds natural when you speak.
 
 ## 24. Interview questions and simple answers
+
+After learning the questions in this section, use the
+[120-question interview bank](interview-question-bank.md) for deeper technical,
+quantitative, engineering, results, and skeptical-interviewer practice.
 
 ### What is a limit order book?
 

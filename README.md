@@ -11,6 +11,8 @@ live deployment, historical-market validation, or real trading performance.
 New to trading or market microstructure? Start with the
 [beginner's study book](docs/study-book.md). It explains the terminology, code,
 experiments, CV wording, limitations, and planned next steps from first principles.
+For deeper preparation, use the [development roadmap](docs/development-roadmap.md)
+and the [120-question interview bank](docs/interview-question-bank.md).
 
 ## Main result
 
