@@ -351,10 +351,10 @@ class Simulator:
         ask_totals: dict[float, float],
     ) -> None:
         for price, quantity in book.depth(Side.BUY):
-            distance = midpoint - price
+            distance = float(max(1, round(midpoint - price)))
             bid_totals[distance] = bid_totals.get(distance, 0.0) + quantity
         for price, quantity in book.depth(Side.SELL):
-            distance = price - midpoint
+            distance = float(max(1, round(price - midpoint)))
             ask_totals[distance] = ask_totals.get(distance, 0.0) + quantity
 
     @staticmethod

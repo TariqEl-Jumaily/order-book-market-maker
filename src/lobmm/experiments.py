@@ -363,13 +363,8 @@ def _plot_pnl_decomposition(result: SimulationResult, path: Path) -> None:
         spread_values.append(spread_pnl)
         inventory_values.append(inventory_pnl)
     plt.figure(figsize=(9, 4.5))
-    plt.stackplot(
-        times,
-        spread_values,
-        inventory_values,
-        labels=("Spread capture", "Inventory PnL"),
-        alpha=0.8,
-    )
+    plt.plot(times, spread_values, label="Spread capture", color="#2563eb")
+    plt.plot(times, inventory_values, label="Inventory PnL", color="#f97316")
     plt.plot(
         times,
         [
@@ -378,7 +373,7 @@ def _plot_pnl_decomposition(result: SimulationResult, path: Path) -> None:
         ],
         color="black",
         linewidth=1,
-        label="Total",
+        label="Total PnL",
     )
     plt.xlabel("Simulation time")
     plt.ylabel("Cumulative PnL (ticks)")
