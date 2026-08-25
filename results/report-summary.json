@@ -1,0 +1,255 @@
+{
+  "baseline": {
+    "duration": 194.51499361103552,
+    "fill_count": 720,
+    "inventory_pnl_ticks": -2144.5,
+    "max_absolute_inventory": 19,
+    "mean_ask_levels": 11.091581683663268,
+    "mean_bid_levels": 13.187762447510497,
+    "mean_spread_ticks": 2.2268991781920224,
+    "median_spread_ticks": 2.0,
+    "midpoint_range": 54.0,
+    "midpoint_volatility": 0.4086813478601853,
+    "nonempty_fraction": 0.9976004799040192,
+    "reconciliation_error": 0.0,
+    "seed": 42,
+    "spread_capture_ticks": 2889.5,
+    "terminal_inventory": 6,
+    "total_pnl_ticks": 745.0
+  },
+  "gamma_max_inventory": [
+    {
+      "ci_high": 100.0,
+      "ci_low": 100.0,
+      "count": 200,
+      "mean": 100.0,
+      "setting": 0.0,
+      "standard_deviation": 0.0
+    },
+    {
+      "ci_high": 42.455,
+      "ci_low": 40.054875,
+      "count": 200,
+      "mean": 41.26,
+      "setting": 0.025,
+      "standard_deviation": 8.504943877049325
+    },
+    {
+      "ci_high": 33.155125,
+      "ci_low": 31.464875,
+      "count": 200,
+      "mean": 32.29,
+      "setting": 0.05,
+      "standard_deviation": 6.206326809177193
+    },
+    {
+      "ci_high": 26.47525,
+      "ci_low": 24.975,
+      "count": 200,
+      "mean": 25.72,
+      "setting": 0.1,
+      "standard_deviation": 5.348329002181699
+    },
+    {
+      "ci_high": 22.58,
+      "ci_low": 21.11,
+      "count": 200,
+      "mean": 21.825,
+      "setting": 0.2,
+      "standard_deviation": 5.2018913259346515
+    },
+    {
+      "ci_high": 18.615,
+      "ci_low": 17.195,
+      "count": 200,
+      "mean": 17.915,
+      "setting": 0.4,
+      "standard_deviation": 5.067164471269358
+    }
+  ],
+  "gamma_pnl": [
+    {
+      "ci_high": -4898.888000000001,
+      "ci_low": -5669.3975,
+      "count": 200,
+      "mean": -5310.41,
+      "setting": 0.0,
+      "standard_deviation": 2897.385343901511
+    },
+    {
+      "ci_high": 409.19268749999986,
+      "ci_low": 224.70756250000002,
+      "count": 200,
+      "mean": 315.3175,
+      "setting": 0.025,
+      "standard_deviation": 663.5864963472525
+    },
+    {
+      "ci_high": 477.5021875,
+      "ci_low": 325.08381249999996,
+      "count": 200,
+      "mean": 401.7875,
+      "setting": 0.05,
+      "standard_deviation": 560.4782941244678
+    },
+    {
+      "ci_high": 457.10337499999997,
+      "ci_low": 316.90812500000004,
+      "count": 200,
+      "mean": 389.05,
+      "setting": 0.1,
+      "standard_deviation": 506.1329075455404
+    },
+    {
+      "ci_high": 98.6898749999999,
+      "ci_low": -23.319062499999987,
+      "count": 200,
+      "mean": 39.445,
+      "setting": 0.2,
+      "standard_deviation": 454.74902733741123
+    },
+    {
+      "ci_high": -517.045625,
+      "ci_low": -643.6004375,
+      "count": 200,
+      "mean": -580.0575,
+      "setting": 0.4,
+      "standard_deviation": 453.4783467804651
+    }
+  ],
+  "gamma_spread_capture": [
+    {
+      "ci_high": 3896.18425,
+      "ci_low": 3823.2715624999996,
+      "count": 200,
+      "mean": 3860.7825,
+      "setting": 0.0,
+      "standard_deviation": 275.65908492057036
+    },
+    {
+      "ci_high": 3683.8363125,
+      "ci_low": 3567.50875,
+      "count": 200,
+      "mean": 3625.32,
+      "setting": 0.025,
+      "standard_deviation": 423.2765232987525
+    },
+    {
+      "ci_high": 3607.993875,
+      "ci_low": 3506.86075,
+      "count": 200,
+      "mean": 3557.005,
+      "setting": 0.05,
+      "standard_deviation": 353.27530650461495
+    },
+    {
+      "ci_high": 3501.8745624999997,
+      "ci_low": 3415.7925,
+      "count": 200,
+      "mean": 3459.6225,
+      "setting": 0.1,
+      "standard_deviation": 318.29032722622736
+    },
+    {
+      "ci_high": 3313.775875,
+      "ci_low": 3233.7360624999997,
+      "count": 200,
+      "mean": 3273.58,
+      "setting": 0.2,
+      "standard_deviation": 298.2943364460326
+    },
+    {
+      "ci_high": 3101.6713125,
+      "ci_low": 3014.6958125,
+      "count": 200,
+      "mean": 3059.2825,
+      "setting": 0.4,
+      "standard_deviation": 308.3312296535144
+    }
+  ],
+  "runs_per_setting": 200,
+  "spread_fills": [
+    {
+      "ci_high": 845.21675,
+      "ci_low": 828.87,
+      "count": 200,
+      "mean": 837.21,
+      "setting": 1.0,
+      "standard_deviation": 63.27364118131427
+    },
+    {
+      "ci_high": 526.74,
+      "ci_low": 506.72875000000005,
+      "count": 200,
+      "mean": 517.13,
+      "setting": 2.0,
+      "standard_deviation": 70.60345130858276
+    },
+    {
+      "ci_high": 398.1905,
+      "ci_low": 381.22112500000003,
+      "count": 200,
+      "mean": 389.655,
+      "setting": 3.0,
+      "standard_deviation": 61.424840497560545
+    },
+    {
+      "ci_high": 328.36075,
+      "ci_low": 312.65412499999996,
+      "count": 200,
+      "mean": 320.575,
+      "setting": 4.0,
+      "standard_deviation": 57.11096819738054
+    },
+    {
+      "ci_high": 288.031125,
+      "ci_low": 272.1,
+      "count": 200,
+      "mean": 280.01,
+      "setting": 5.0,
+      "standard_deviation": 57.158247227593094
+    }
+  ],
+  "spread_pnl": [
+    {
+      "ci_high": 453.72949999999986,
+      "ci_low": 320.64025,
+      "count": 200,
+      "mean": 389.05,
+      "setting": 1.0,
+      "standard_deviation": 506.1329075455404
+    },
+    {
+      "ci_high": 597.1313749999999,
+      "ci_low": 456.630125,
+      "count": 200,
+      "mean": 528.2775,
+      "setting": 2.0,
+      "standard_deviation": 530.5033347535841
+    },
+    {
+      "ci_high": 940.0501875,
+      "ci_low": 763.871875,
+      "count": 200,
+      "mean": 852.295,
+      "setting": 3.0,
+      "standard_deviation": 638.9728708036951
+    },
+    {
+      "ci_high": 1374.9346874999999,
+      "ci_low": 1154.0090625,
+      "count": 200,
+      "mean": 1269.9925,
+      "setting": 4.0,
+      "standard_deviation": 809.881262588045
+    },
+    {
+      "ci_high": 1870.3714375,
+      "ci_low": 1603.9583750000002,
+      "count": 200,
+      "mean": 1735.7675,
+      "setting": 5.0,
+      "standard_deviation": 955.5299667096531
+    }
+  ]
+}
