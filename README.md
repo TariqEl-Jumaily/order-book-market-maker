@@ -8,6 +8,10 @@ inventory risk, and adverse selection under synthetic continuous-time order flow
 The project is an educational market-microstructure model. It does **not** claim
 live deployment, historical-market validation, or real trading performance.
 
+New to trading or market microstructure? Start with the
+[beginner's study book](docs/study-book.md). It explains the terminology, code,
+experiments, CV wording, limitations, and planned next steps from first principles.
+
 ## Main result
 
 Across 200 common random seeds per setting, moving from no inventory skew to
@@ -169,4 +173,3 @@ reconciliation, persistence, CLI behavior, and report generation.
   spread, trade-size, and markout distributions.
 - Avellaneda-Stoikov quoting, a C++ hot path, and explicit latency remain stretch
   goals rather than hidden v1 claims.
-
